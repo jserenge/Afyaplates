@@ -1,0 +1,1 @@
+export function NutritionistTip(){return <aside className="rounded-2xl border border-afya-100 bg-afya-50 p-4 text-sm text-afya-900"><b>Nutritionist’s note:</b> Portions and individual nutrient targets vary. Confirm clinical meal choices with your care team.</aside>}

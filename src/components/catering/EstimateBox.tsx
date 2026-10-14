@@ -1,0 +1,1 @@
+import { formatKES } from '@/lib/utils'; export function EstimateBox({low,high}:{low:number;high:number}){return <div className="rounded-2xl bg-afya-900 p-5 text-white"><p className="text-sm">Estimated range</p><strong className="text-xl">{formatKES(low)}–{formatKES(high)}</strong></div>}

@@ -1,0 +1,1 @@
+'use client'; export function FilterBar({value,onChange}:{value:string;onChange:(value:string)=>void}){return <input value={value} onChange={e=>onChange(e.target.value)} placeholder="Search meals" className="w-full rounded-full border p-3"/>}

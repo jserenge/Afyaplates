@@ -1,0 +1,1 @@
+export const estimateCatering = (standard:number, diabetic:number, lowSodium:number, renal:number) => { const low=standard*900+diabetic*1050+lowSodium*1050+renal*1250; return { low, high: Math.round(low*1.18) }; };

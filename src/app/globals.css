@@ -1,0 +1,4 @@
+@config "../../tailwind.config.ts";
+@import "tailwindcss";
+
+*{box-sizing:border-box} body{margin:0;background:#fffdf9;color:#292524} a{text-decoration:none;color:inherit} input,textarea{font:inherit}

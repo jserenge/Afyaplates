@@ -1,0 +1,2 @@
+'use client'; import type { ButtonHTMLAttributes } from 'react'; import { cx } from '@/lib/utils';
+export function Button({className,...props}:ButtonHTMLAttributes<HTMLButtonElement>&{className?:string}){return <button {...props} className={cx('rounded-full bg-afya-600 px-4 py-2 text-sm font-bold text-white transition hover:bg-afya-900 disabled:cursor-not-allowed disabled:opacity-50',className)} />}
